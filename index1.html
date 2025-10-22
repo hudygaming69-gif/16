@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="pl">
+<head>
+    <meta charset="UTF-8">
+    <title>Kalkulator rat</title>
+</head>
+<body>
+
+<h3>Oblicz miesięczną ratę</h3>
+
+<form method="post">
+    <label><input type="checkbox" name="kurs" value="React.js" checked> Kurs React.js</label><br>
+    <label><input type="checkbox" name="kurs" value="JavaScript" checked> Kurs JavaScript</label><br><br>
+
+    <label>Liczba rat: <input type="number" name="raty" value="10"></label><br><br>
+
+    <label>
+        <select name="miasto">
+            <option value="katowice" selected>Katowice</option>
+            <option value="warszawa">Warszawa</option>
+            <option value="krakow">Kraków</option>
+        </select>
+    </label><br><br>
+
+    <input type="submit" value="Oblicz">
+</form>
+
+<p>Kurs odbędzie się w Katowicach. Koszt całkowity: 8000 zł. Płacisz 10 rat po 800 zł</p>
+
+</body>
+</html>
